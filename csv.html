@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <body>
+	<center>
+	  <h1>Arquivo CSV</h1>
+	</center>
+	<ul>
+	  <li> 
+	    <form action="/csv">
+	      Criar aquivo CSV dos Gasto:
+	      <select name="tabela">
+		<option value="tabela-c">Atual</option>
+		<option value="tabela-bkp">Geral</option>
+	      </select>
+	      <input type="submit" value="CSV">
+	    </form>
+	  </li>
+	  <p></p>
+	  <li>
+	    <form action="/">
+	      <input type="submit" value="Voltar">
+	    </form>
+	  </li>
+	</ul>
+	<p> @|csvf| </p>
+  </head>
+</html>

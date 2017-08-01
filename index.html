@@ -1,0 +1,28 @@
+<!DOCTYPE html/text>
+<html>
+  <head>
+    <title>Controle-Trabalho</title>
+    <meta http-equiv="refresh" content="2;url=/">
+    <body>
+      <center>
+	<h1>Consumo Diario</h1>
+      </center>
+      <ul>
+	<li> Gasto Atual: @|lei| Whs </li>
+	<p>
+	<li> Consumo Maximo: @|maxr| Whs </li>
+	<p>
+	  <li>
+	    <form action="/new">
+	      Configurar Valor Maximo (Whs): <input type="text" name="maximo" value="100">
+	      <input type="submit" value="Reconfigurar">
+	  </form> </li>
+	  <li>
+	    <form>
+	      <input type="button" value="GERAR .CSV" onclick="window.location.href='/csv'">
+	  </li>
+      </ul>
+    <body>
+  </head>
+</html>
+
